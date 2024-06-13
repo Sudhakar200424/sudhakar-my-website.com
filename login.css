@@ -1,0 +1,357 @@
+
+body{
+    background-image:url("sea.jpg");
+    background-position: center;
+    
+    
+}
+
+
+
+
+.heading{
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color:#1c4cd0;
+    cursor: pointer;
+    animation-duration: 2s;
+    text-shadow: 5px 10px px black;
+
+}
+
+.heading:hover{
+    transition: text;
+    text-decoration: underline;
+    /* color: black; */
+    
+   }
+
+
+.login{
+    width: 400px;
+    border: 10px double black;
+    padding: 50px 10px 80px 30px;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    box-shadow: 5px 5px 10px black;
+
+}
+div label{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;         
+    color: ;
+
+}
+div input{
+    border: 3px solid black;
+    position:relative;
+    width: 225px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 5px 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* box-shadow: 2px 2px 5px black;
+     */
+}
+#male{
+    position: relative;
+    right: 40px;
+}
+#female{
+    position: relative;
+    left:44px;
+    top: 10px;
+}
+#male2{
+    position: relative;
+    right: 130px;
+    bottom: 10px;
+}
+#female2{
+    position: relative;
+    right:50px;
+    bottom: 1px;
+}
+div input:focus{
+    background-color: wheat;
+}
+#eml{
+    position: relative;
+    left: 46px;
+    box-shadow: 2px 2px 5px black;
+
+}
+#date{
+    position: relative;
+    left: 64px;
+    width: 225px;
+    height: 33px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 2px 2px 5px black;
+}
+
+#submit{
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left:5px;
+    top: 30px;
+    padding: 5px 20px;
+    background-color: greenyellow;
+    box-shadow: 5px 5px 5px black ;
+
+}
+#submit:hover{
+    background-color:rgb(255, 0, 225);
+   
+}
+#reset{
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left:150px;
+    top: 30px;
+    padding: 5px 20px;
+    background-color: red;
+    box-shadow: 5px 5px 5px black ;
+
+}
+#reset:hover{
+    background-color:rgb(255, 0, 225);
+   
+}
+#username{
+    box-shadow: 2px 2px 5px black;
+}
+#pwd{
+    box-shadow: 2px 2px 5px black;
+}
+@media (max-width:480px) {
+  
+
+
+   body{
+        background-image: url('seasmall.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+   
+    }
+
+    .login{
+        margin: auto 50px 20px auto;
+        width:300px;
+        display: grid;
+        padding: 50px 10px 80px 30px;
+        margin: auto;
+        border-radius: 20px;
+        position: relative;
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        backdrop-filter: blur(20px);
+        
+    }
+
+      #username{
+        position:absolute;
+        left: 150px;
+        width: 150px;
+        height: 15px;
+        font-size: 20px;
+        
+    }   
+    #eml{
+        position:absolute;
+        left: 150px;
+        width: 150px;
+        height: 15px;
+        font-size: 20px;
+        
+    }
+   #pwd{
+    position:absolute;
+    left: 150px;
+    width: 150px;
+    height: 15px;
+    font-size: 20px;
+    
+   }
+
+   #date{
+    position:absolute;
+    left: 150px;
+    width: 150px;
+    height: 15px;
+    font-size: 20px;
+    
+   }
+
+   #submit{
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left:0px;
+    top: 30px;
+    padding: 5px 20px;
+    background-color: greenyellow;
+   }
+
+   #reset{
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left:100px;
+    top: 30px;
+    padding: 5px 20px;
+    background-color: red;
+   }
+
+   .heading{
+    color: greenyellow;
+    font-size: 40px;
+    text-decoration: none;   
+    position:relative;
+   
+
+   }
+   #male{
+    position:absolute;
+    right: 33px;
+
+    
+    }
+    /* #female{
+    display:grid;
+    top: px;
+    right: 25px;
+    }*/
+
+    
+    #male2{
+    position: relative;
+    right: -95px;
+    top: 8px;
+    }
+    #female2{
+    position: relative;
+    left:180px;
+    bottom: 20px;
+}
+
+
+
+    }
+
+    @media (max-width:368px) {
+        .heading{
+            font-size: 30px;
+            top: 20px;
+        }
+        .login{
+            width: 280px;
+        }
+        
+      #username{
+        position:absolute;
+        left: 150px;
+        width: 130px;
+        height: 17px;
+        font-size: 20px;
+        
+    }   
+    #eml{
+        position:absolute;
+        left: 150px;
+        width: 130px;
+        height: 17px;
+        font-size: 20px;
+        
+    }
+   #pwd{
+    position:absolute;
+    left: 150px;
+    width: 130px;
+    height: 17px;
+    font-size: 20px;
+    
+   }
+
+   #date{
+    position:absolute;
+    left: 150px;
+    width: 130px;
+    height: 17px;
+    font-size: 20px;
+    
+   }
+   #male{
+    position:absolute;
+    right:13px;
+
+   }
+   #male2{
+    position: relative;
+    right: -95px;
+    top: 8px;
+    }
+    #female2{
+    position: relative;
+    left:180px;
+    bottom: 20px;
+}
+#submit{
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: -15px;
+    top: 30px;
+    padding: 5px 20px;
+    background-color: greenyellow;
+   }
+
+   #reset{
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left:80px;
+    top: 30px;
+    padding: 5px 20px;
+    background-color: red;
+   }
+
+ 
+    }
+    
